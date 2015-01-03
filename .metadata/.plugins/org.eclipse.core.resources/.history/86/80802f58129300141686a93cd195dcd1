@@ -13,8 +13,6 @@ public class MongoDBJDBC {
 		
 		try {
 			Utilities.connectToDB(hostName, port, database);
-			
-			
 		}catch(Exception e) {
 			
 		}

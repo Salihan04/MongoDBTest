@@ -1,0 +1,20 @@
+package utilities;
+
+import java.net.UnknownHostException;
+
+import com.mongodb.MongoClient;
+
+public class Utilities {
+	
+	public static void connectToDB() {
+		try {
+			//to connect to mongodb server
+			MongoClient mongoClient = new MongoClient("localhost", 27017);
+			
+			//now connect to your database
+		} catch (UnknownHostException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}

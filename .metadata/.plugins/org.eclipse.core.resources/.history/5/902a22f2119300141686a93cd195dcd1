@@ -8,7 +8,7 @@ public class Utilities {
 	public static void connectToDB(String hostName, int port, String database) {
 		
 		try {
-			//to connect to mongoDB server
+			//to connect to mongodb server
 			MongoClient mongoClient = new MongoClient(hostName, port);
 			
 			//now connect to your database
