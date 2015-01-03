@@ -14,7 +14,7 @@ public class MongoDBJDBC {
 		hostName = "localhost";
 		port = 27017;
 		database = "test";
-		collectionName = "people";
+		collectionName = "myColl";
 		
 		try {
 			Utilities.connectToDB(hostName, port, database);

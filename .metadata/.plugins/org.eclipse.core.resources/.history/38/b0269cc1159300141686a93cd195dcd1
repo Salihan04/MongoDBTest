@@ -28,10 +28,6 @@ public class Utilities {
 		System.out.println("Collection created successfully");
 	}
 	
-	public static MongoClient getMongoClient() {
-		return mongoClient;
-	}
-	
 	public static DB getDatabase() {
 		return db;
 	}

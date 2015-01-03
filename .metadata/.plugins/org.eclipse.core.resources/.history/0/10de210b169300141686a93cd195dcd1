@@ -14,7 +14,7 @@ public class MongoDBJDBC {
 		hostName = "localhost";
 		port = 27017;
 		database = "test";
-		collectionName = "people";
+		collectionName = "myColl";
 		
 		try {
 			Utilities.connectToDB(hostName, port, database);
@@ -22,9 +22,6 @@ public class MongoDBJDBC {
 			collection = Utilities.getDatabase().getCollection(collectionName);
 			if(collection == null) {
 				Utilities.createCollection(collectionName);
-			}
-			else {
-				System.out.println("Collection '" + collectionName + "' selected successfully");
 			}
 						
 			

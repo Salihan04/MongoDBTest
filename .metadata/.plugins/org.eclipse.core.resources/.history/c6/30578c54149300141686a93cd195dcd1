@@ -23,16 +23,7 @@ public class Utilities {
 		}
 	}
 	
-	public static void createCollection(String collectionName) {
-		collection = db.createCollection(collectionName, null);
-		System.out.println("Collection created successfully");
-	}
-	
-	public static MongoClient getMongoClient() {
-		return mongoClient;
-	}
-	
-	public static DB getDatabase() {
-		return db;
+	public static void createCollection(String collection) {
+		
 	}
 }
