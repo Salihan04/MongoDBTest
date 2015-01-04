@@ -143,3 +143,9 @@ StackTrace:
 
 !ENTRY org.eclipse.ui 4 4 2015-01-03 15:56:35.646
 !MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ProblemView.
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-01-03 16:50:34.047
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-01-03 16:50:34.049
+!MESSAGE unexpected method call (NullSarosSession.java:64)
