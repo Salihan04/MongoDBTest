@@ -1,7 +1,7 @@
 MongoDBTest
 ===========
 
-Using MongoDB with Java and PHP
+Using MongoDB with Java
 
 MongoDB Java
 ------------
